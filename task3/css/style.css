@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding: 0;
+}
+p{
+    color:white;
+    font-size: 1.2rem;
+}
+html{
+    width: 100%;
+    height:100%;
+}
+body{
+    width: 100%;
+    height:100%;
+}
+#web{
+    width: 100%;
+
+    background-color: rgba(104,205,213,1);
+}
+#back  {
+    position: relative;
+    padding-top:10%;
+    left:0;
+    top: 0;
+}
+#back img{
+    position: absolute;
+    left:5%;
+    top: 5%;
+
+    width: 10%;
+    max-width: 3em;
+
+}
+
+#logo{
+    width:100%;
+
+    vertical-align: middle;
+    text-align: center;
+}
+#content{
+    width:100%;
+    padding-top: 10%;
+
+    line-height: 1.4em;
+    color: aliceblue;
+    text-align: center;
+    /*vertical-align: middle;*/
+}
+
+#foot-left{
+    display: inline-block;
+
+    width: 45%;
+    padding-top: 10%;
+
+    text-align: center;
+    vertical-align: middle;
+}
+#foot-right{
+    display: inline-block;
+
+    width: 45%;
+    padding-top: 10%;
+
+    text-align: center;
+    vertical-align: middle;
+}
