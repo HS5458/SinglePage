@@ -1,0 +1,25 @@
+#div1{
+    width:25%;
+  background-image: url('../img/mysprite.png');
+  background-position: -0px top;
+    margin-right: 2px;
+    background-color: transparent;
+}
+#div2{
+  background-image: url('../img/mysprite.png');
+  background-position: -29px top;
+    margin-right: 2px;
+    background-color: transparent;
+}
+#div3{
+  background-image: url('../img/mysprite.png');
+  background-position: -59px top;
+    margin-right: 2px;
+    background-color: transparent;
+}
+#div4{
+  background-image: url('../img/mysprite.png');
+  background-position: -89px top;
+    margin-right: 2px;
+    background-color: transparent;
+}

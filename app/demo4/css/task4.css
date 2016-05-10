@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    width:100%;
+    font-size: 60%;
+    font-family: "Microsoft YaHei";
+}
+h1,p{
+    cursor: default;
+}
+#web{
+    width:100%;
+    max-width: 800px;
+    min-width:370px;
+    margin:0 auto;
+}
+/*头部导航*/
+#header{
+    position:relative;
+    padding: 3% 0;
+
+    width: 100%;
+
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+
+    border-bottom: 1px solid honeydew;
+    background-color: rgba(34,190,228,1.0);
+}
+#header h1{
+    font-size: 2.8rem;
+}
+#header .home{
+    position: absolute;
+    top: 29%;
+    left: 2%;
+
+    width: 5%;
+
+    cursor: pointer;
+}
+#header .more{
+    position: absolute;
+    top: 29%;
+    right: 2%;
+
+    width: 5%;
+
+    cursor: pointer;
+}
+/*游戏结果*/
+#content{
+    width: 100%;
+
+    background-color: rgba(34,190,228,1.0);
+}
+#victory{
+    width: 100%;
+    padding-top: 20%;
+    text-align: center;
+
+    background: url("../img/result.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+#victory h1{
+    font-size: 3.8rem;
+    color: white;
+}
+#text{
+    width: 60%;
+    margin: 0 auto;
+}
+#text p{
+    color:rgba(255, 102, 51,0.9);
+    line-height: 1.5em;
+    font-size: 2.4em;
+}
+#result{
+    width: 100%;
+    margin: 4% auto 0 auto;
+}
+#result p{
+
+    margin-left: 20%;
+
+    color: white;
+    font-size: 2em;
+    letter-spacing: 0.2em;
+}
+/*游戏细节*/
+#details .day{
+    width:100%;
+
+    border-bottom: 1px solid rgba(221, 212, 210,1.0);
+}
+#details .day .time{
+    width: 80%;
+    margin-left: 20%;
+    padding-top: 1%;
+
+    text-align: end;
+}
+#details .day .time .p1{
+    float: left;
+
+    font-size: 2.3em;
+    color:rgba(71, 64, 62,1.0);
+}
+#details .day .time .p2{
+    float: right;
+
+    margin-right: 25%;
+
+    font-size: 1.7em;
+    color: rgba(198, 235, 245,1.0);
+}
+#details .day .text-d{
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    font-size: 2em;
+    color: rgba(172, 172, 172,0.8);
+}
+#details .blank-bottom{
+    margin-bottom: 3%;
+}
+/*互动*/
+#menu{
+    position: fixed;
+    bottom:0;
+    right:0;
+
+    width: 100%;
+
+    background-color: rgba(34,190,228,0.3);
+}
+#menu p{
+    cursor: pointer;
+}
+#menu .again{
+    display: inline-block;
+    width: 40%;
+    margin:2% 2% 2% 5%;
+    /*margin-top: 2%;*/
+    /*margin-bottom: 2%;*/
+
+    font-size: 3.2em;
+    line-height: 2.2em;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgba(255,0,0,0.7);
+
+    border-radius:5px;
+    cursor: pointer;
+}
+
+#menu .end{
+    display: inline-block;
+    width: 40%;
+    margin:2% 5% 2% 2%;
+
+    font-size: 3.2em;
+    line-height: 2.2em;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgba(255, 204, 51,1.0);
+
+    border-radius:5px;
+}

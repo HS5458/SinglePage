@@ -1,0 +1,22 @@
+#div1{
+    /** sprite: mysprite; sprite-image: url('../img/mysprite.png');Sprite-layout:horizontal;*/
+    width:25%;
+    background-image:url("../img/killer.png");/** sprite-ref: mysprite; */
+    margin-right: 2px;
+    background-color: transparent;
+}
+#div2{
+    background-image: url("../img/police.png");/** sprite-ref: mysprite; */
+    margin-right: 2px;
+    background-color: transparent;
+}
+#div3{
+    background-image: url("../img/sniper.png");/** sprite-ref: mysprite; */
+    margin-right: 2px;
+    background-color: transparent;
+}
+#div4{
+    background-image: url("../img/doctor.png");/** sprite-ref: mysprite; */
+    margin-right: 2px;
+    background-color: transparent;
+}

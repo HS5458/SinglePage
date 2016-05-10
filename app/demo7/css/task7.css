@@ -1,0 +1,445 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:60%;
+    width:100%;
+    font-family: "Microsoft Yahei";
+}
+#web{
+    width:100%;
+    /*max-width:800px;*/
+    margin:0 auto;
+    overflow: hidden;
+    background-color: #F8F8F8;
+}
+/*头部导航*/
+#header{
+    position: relative;
+    width:100%;
+    padding-top:1%;
+    padding-bottom: 1%;
+
+    background-color:white;
+}
+#header p{
+    width:40%;
+    margin-left:10%;
+
+    color:rgba(98, 176, 140, 1.0);
+}
+#header img{
+    position: absolute;
+    bottom:26.7%;
+    width:1.5%;
+}
+#header #xinlang{
+    right:17%;
+}
+#header #qq{
+    right:20%;
+}
+#header #weixin{
+    right:23%;
+}
+/*菜单*/
+#menu{
+    width:100%;
+
+    background-color:rgba(28, 177, 119, 1.0);
+}
+#menu #menu-list{
+    width:100%;
+    margin-left:60%;
+    padding-top:2%;
+
+    color:white;
+    font-size:1.1rem;
+    line-height: 1.1rem;
+}
+#menu #menu-list ul{
+    width:100%;
+}
+#menu #menu-list ul li{
+    display:inline-block;
+    list-style-type: none;
+
+    width:6%;
+
+    text-align: center;
+    cursor:pointer;
+}
+.show{
+    width:100%;
+    background-color: white;
+    margin-top:20%;
+    padding-top:8%;
+}
+/*图片轮转*/
+#photo{
+    position: relative;
+    width:100%;
+    padding-bottom:30%;
+    background-color: #F8F8F8;
+}
+#photo #photo-z{
+    position: relative;
+    width:100%;
+
+}
+#photo #photo-z img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+}
+#photo #photo-z .top-img{
+    z-index:1;
+}
+#photo .prev{
+    position:absolute;
+    top:0;
+    left:0;
+
+    width:5%;
+    margin-top:12%;
+    margin-left:5%;
+
+    font-size:3rem;
+    color:white;
+    text-align: center;
+    cursor:pointer;
+    z-index: 1;
+}
+#photo .next{
+    position:absolute;
+    top:0;
+    right:0;
+
+    width:5%;
+    margin-top:12%;
+    margin-right:5%;
+
+    font-size:3rem;
+    color:white;
+    text-align: center;
+    cursor:pointer;
+    z-index: 1;
+}
+
+#photo #circle-index{
+    position:absolute;
+    left:50%;
+    width:60%;
+    margin-left:-30%;
+    margin-top:26%;
+
+    text-align: center;
+    z-index: 2;
+}
+#photo #circle-index ul{
+    width:100%;
+}
+#photo #circle-index ul li{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin:1px;
+
+    list-style-type: none;
+    color: transparent;
+    border:1px solid rgba(255,255,255,0.5);
+    border-radius:50%;
+}
+#photo #circle-index .circle-color{
+    background-color:white;
+}
+/*教学特色*/
+#feature{
+    position: relative;
+    width:100%;
+    margin:150px auto 150px auto;
+    background-color: #F8F8F8;
+}
+#feature div{
+    width:200px;
+    height:230px;
+    float:left;
+    margin-right:60px;
+    margin-left:50px;
+
+    text-align: center;
+}
+#feature h1{
+    font-weight: bold;
+    margin-top:12px;
+    font-size:1.5rem;
+}
+#feature p{
+    margin-top:10px;
+    color:#A3A3A3;
+}
+#feature .f-rocket{
+    width:30%;
+}
+#feature .f-phone{
+    width:30%;
+    margin-top:39px;
+}
+#feature .f-e-wave{
+    width:30%;
+    margin-top:25px;
+}
+#feature #f-count{
+
+    color:#26a26f;
+    border-left:1px solid gray;
+}
+#feature #f-count>img{
+    margin-top:50px;
+}
+#feature #f-count img{
+    margin-left:-60px;
+    margin-right:10px;
+}
+#feature #f-count p{
+    color:#A3A3A3;
+}
+/*如何学习*/
+#how-learn{
+    width: 100%;
+    margin-top:40%;
+}
+#how-learn>h1{
+    width:100%;
+    margin-bottom:50px;
+    font-weight:bold;
+    text-align:center;
+}
+#how-learn .b-step{
+    width:257px;
+    height:50px;
+    float:left;
+    margin-left:10px;
+    margin-top:20px;
+
+    background-color: #F8F8F8;
+}
+#how-learn .first{
+    margin-left:5%;
+}
+#how-learn .b-step .b-number{
+    /*display: inline-block;*/
+    width:50px;
+    height:50px;
+    float:left;
+    margin-right:10px;
+
+    font-size:1.4rem;
+    line-height: 4rem;
+    color:#26a26f;
+    text-align: center;
+
+    background-image: url("../img/b-circle.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#how-learn .b-step .b-text{
+    /*display: inline-block;*/
+    width:150px;
+    height:50px;
+    margin-right:20px;
+    padding-top:5px;
+    float:left;
+    font-size:1.5rem;
+
+    vertical-align: middle;
+    color:#A3A3A3;
+}
+#how-learn .b-step .b-right{
+    width:27px;
+    height:26px;
+    float:left;
+    padding-top:12px;
+}
+/*优秀学员*/
+#good-study{
+    width:100%;
+    margin-top:25%;
+    background-color: #F8F8F8;
+}
+#good-study>h1{
+    width:100%;
+    margin-bottom:50px;
+    font-weight:bold;
+    text-align:center;
+}
+#good-study .g-study{
+    width:200px;
+    height:270px;
+    margin-left:63px;
+    margin-right:50px;
+    margin-bottom:10px;
+    float:left;
+
+    text-align: center;
+
+    background-color:white;
+    border:1px solid rgba(217, 217, 217, 0.7);
+    border-radius:5px;
+}
+#good-study .g-choose{
+    border:1px solid #26a26f;
+}
+#good-study img{
+    margin-top:10px;
+}
+#good-study .g-study>h1{
+    padding-top:20px;
+    font-size:1.7rem;
+}
+#good-study .g-study>p{
+    padding:20px 10px 0 10px;
+    color:#A3A3A3;
+    text-align: left;
+}
+#good-study .g-index{
+    width:128px;
+    height:20px;
+    margin:0 auto;
+    clear: both;
+    text-align: center;
+}
+#good-study .g-index li{
+    list-style-type: none;
+    width:20px;
+    height:20px;
+    float:left;
+    margin-right:10px;
+
+    color: transparent;
+
+    background-color: white;
+    border-radius: 50%;
+    border:1px solid white;
+    box-shadow: #26a26f;
+}
+#good-study .g-index .g-color{
+    background-color:rgba(98, 176, 140, 1.0);
+}
+/*合作企业*/
+#Co-to{
+    width:100%;
+    margin-top:50px;
+    text-align: center;
+}
+#Co-to>h1{
+    width:100%;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-weight:bold;
+    text-align:center;
+}
+#Co-to .first{
+    margin-left:50px;
+}
+#Co-to div{
+    width:223px;
+    height:155px;
+    float: left;
+    margin-bottom:50px;
+    background-color:white;
+}
+/*友情链接*/
+#friend-link{
+    width:100%;
+    padding-top: 20px;
+}
+#friend-link>h1{
+    width:100%;
+    margin-top:200px;
+    margin-bottom:10px;
+    font-weight:bold;
+    text-align:center;
+}
+#friend-link div{
+    width:80%;
+    margin:0 auto 20px auto;
+}
+#friend-link div ul{
+    background-color: white;
+}
+#friend-link div li{
+    float:left;
+    margin-right:40px;
+    padding-top:5px;
+    font-size:1.5rem;
+    color:#A3A3A3;
+}
+#friend-link div li a{
+    text-decoration:none;
+    color:#A3A3A3;
+}
+/*联系我们*/
+#relate-us{
+    width:100%;
+    margin-top:200px;
+    background-color: rgba(98, 176, 140, 1.0);
+    border-bottom:1px solid white;
+}
+#relate-us div{
+    display: inline-block;
+}
+#relate-us .r-link{
+    width:200px;
+    height:100px;
+    margin-left:100px;
+    margin-right:50px;
+    margin-bottom:20px;
+}
+#relate-us .r-link p{
+    padding-top:50px;
+    font-size:1.2rem;
+    color:white;
+}
+#relate-us .r-link p a{
+    margin-right:5px;
+    color:white;
+}
+#relate-us .r-linkweb{
+    width:200px;
+    height:100px;
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom:50px;
+}
+#relate-us .r-linkweb p{
+    padding-top:20px;
+    font-size:1.2rem;
+    color:white;
+}
+#relate-us .r-linkweb p a{
+    margin-right:15px;
+    color:white;
+}
+#relate-us .erweima{
+    width:100px;
+    height:100px;
+    margin-left:300px;
+    padding-bottom:15px;
+    font-size:1.4rem;
+    color:black;
+    text-align:center;
+}
+#relate-us .erweima img{
+    margin-top:10px;
+}
+/*网站备案信息*/
+#web-info{
+    width:100%;
+    height:20px;
+    color:white;
+    text-align: center;
+    background-color: rgba(98, 176, 140, 1.0);
+}
